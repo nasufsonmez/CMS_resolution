@@ -1,0 +1,10 @@
+$$$----- Minimal configuration file to run on data -----
+$$$----- Input file name
+
+InputFileName = "/home/fozturk/Desktop/Analysis-master/ntuple_data/cut0/ntuple_signal_diphoton_cut0"
+
+$$$----- Number of Events to Process
+NEntries = -1
+
+$$$----- Output file name
+OutputFileName = "/home/fozturk/Desktop/Analysis-master/analyze_output_new_tfd/cut0/analyze_signal_diphoton_cut0"

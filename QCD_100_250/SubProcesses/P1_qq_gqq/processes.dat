@@ -1,0 +1,14 @@
+1       u u > g u u,c c > g c c,s s > g s s,d d > g d d,b b > g b b
+mirror  none
+2       u u~ > g u u~,c c~ > g c c~,s s~ > g s s~,d d~ > g d d~,b b~ > g b b~
+mirror  u~ u > g u u~,c~ c > g c c~,s~ s > g s s~,d~ d > g d d~,b~ b > g b b~
+3       u~ u~ > g u~ u~,c~ c~ > g c~ c~,s~ s~ > g s~ s~,d~ d~ > g d~ d~,b~ b~ > g b~ b~
+mirror  none
+4       u c > g u c,u s > g u s,u d > g u d,u b > g u b,c s > g c s,c d > g c d,c b > g c b,s d > g s d,s b > g s b,d b > g d b
+mirror  c u > g u c,s u > g u s,d u > g u d,b u > g u b,s c > g c s,d c > g c d,b c > g c b,d s > g s d,b s > g s b,b d > g d b
+5       u u~ > g c c~,u u~ > g s s~,u u~ > g d d~,u u~ > g b b~,c c~ > g u u~,c c~ > g s s~,c c~ > g d d~,c c~ > g b b~,s s~ > g u u~,s s~ > g c c~,s s~ > g d d~,s s~ > g b b~,d d~ > g u u~,d d~ > g c c~,d d~ > g s s~,d d~ > g b b~,b b~ > g u u~,b b~ > g c c~,b b~ > g s s~,b b~ > g d d~
+mirror  u~ u > g c c~,u~ u > g s s~,u~ u > g d d~,u~ u > g b b~,c~ c > g u u~,c~ c > g s s~,c~ c > g d d~,c~ c > g b b~,s~ s > g u u~,s~ s > g c c~,s~ s > g d d~,s~ s > g b b~,d~ d > g u u~,d~ d > g c c~,d~ d > g s s~,d~ d > g b b~,b~ b > g u u~,b~ b > g c c~,b~ b > g s s~,b~ b > g d d~
+6       u c~ > g u c~,u s~ > g u s~,u d~ > g u d~,u b~ > g u b~,c u~ > g c u~,c s~ > g c s~,c d~ > g c d~,c b~ > g c b~,s u~ > g s u~,s c~ > g s c~,s d~ > g s d~,s b~ > g s b~,d u~ > g d u~,d c~ > g d c~,d s~ > g d s~,d b~ > g d b~,b u~ > g b u~,b c~ > g b c~,b s~ > g b s~,b d~ > g b d~
+mirror  c~ u > g u c~,s~ u > g u s~,d~ u > g u d~,b~ u > g u b~,u~ c > g c u~,s~ c > g c s~,d~ c > g c d~,b~ c > g c b~,u~ s > g s u~,c~ s > g s c~,d~ s > g s d~,b~ s > g s b~,u~ d > g d u~,c~ d > g d c~,s~ d > g d s~,b~ d > g d b~,u~ b > g b u~,c~ b > g b c~,s~ b > g b s~,d~ b > g b d~
+7       u~ c~ > g u~ c~,u~ s~ > g u~ s~,u~ d~ > g u~ d~,u~ b~ > g u~ b~,c~ s~ > g c~ s~,c~ d~ > g c~ d~,c~ b~ > g c~ b~,s~ d~ > g s~ d~,s~ b~ > g s~ b~,d~ b~ > g d~ b~
+mirror  c~ u~ > g u~ c~,s~ u~ > g u~ s~,d~ u~ > g u~ d~,b~ u~ > g u~ b~,s~ c~ > g c~ s~,d~ c~ > g c~ d~,b~ c~ > g c~ b~,d~ s~ > g s~ d~,b~ s~ > g s~ b~,b~ d~ > g d~ b~

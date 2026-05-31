@@ -1,0 +1,8 @@
+1       g u > u u u~,g c > c c c~,g s > s s s~,g d > d d d~,g b > b b b~
+mirror  u g > u u u~,c g > c c c~,s g > s s s~,d g > d d d~,b g > b b b~
+2       g u~ > u u~ u~,g c~ > c c~ c~,g s~ > s s~ s~,g d~ > d d~ d~,g b~ > b b~ b~
+mirror  u~ g > u u~ u~,c~ g > c c~ c~,s~ g > s s~ s~,d~ g > d d~ d~,b~ g > b b~ b~
+3       g u > u c c~,g u > u s s~,g u > u d d~,g u > u b b~,g c > c u u~,g c > c s s~,g c > c d d~,g c > c b b~,g s > s u u~,g s > s c c~,g s > s d d~,g s > s b b~,g d > d u u~,g d > d c c~,g d > d s s~,g d > d b b~,g b > b u u~,g b > b c c~,g b > b s s~,g b > b d d~
+mirror  u g > u c c~,u g > u s s~,u g > u d d~,u g > u b b~,c g > c u u~,c g > c s s~,c g > c d d~,c g > c b b~,s g > s u u~,s g > s c c~,s g > s d d~,s g > s b b~,d g > d u u~,d g > d c c~,d g > d s s~,d g > d b b~,b g > b u u~,b g > b c c~,b g > b s s~,b g > b d d~
+4       g u~ > c u~ c~,g u~ > s u~ s~,g u~ > d u~ d~,g u~ > b u~ b~,g c~ > u c~ u~,g c~ > s c~ s~,g c~ > d c~ d~,g c~ > b c~ b~,g s~ > u s~ u~,g s~ > c s~ c~,g s~ > d s~ d~,g s~ > b s~ b~,g d~ > u d~ u~,g d~ > c d~ c~,g d~ > s d~ s~,g d~ > b d~ b~,g b~ > u b~ u~,g b~ > c b~ c~,g b~ > s b~ s~,g b~ > d b~ d~
+mirror  u~ g > c u~ c~,u~ g > s u~ s~,u~ g > d u~ d~,u~ g > b u~ b~,c~ g > u c~ u~,c~ g > s c~ s~,c~ g > d c~ d~,c~ g > b c~ b~,s~ g > u s~ u~,s~ g > c s~ c~,s~ g > d s~ d~,s~ g > b s~ b~,d~ g > u d~ u~,d~ g > c d~ c~,d~ g > s d~ s~,d~ g > b d~ b~,b~ g > u b~ u~,b~ g > c b~ c~,b~ g > s b~ s~,b~ g > d b~ d~

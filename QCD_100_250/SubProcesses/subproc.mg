@@ -1,0 +1,11 @@
+P1_gg_ggg
+P1_gg_gqq
+P1_gq_ggq
+P1_qq_ggg
+P1_gq_qqq
+P1_qq_gqq
+P0_gg_gg
+P0_gg_qq
+P0_gq_gq
+P0_qq_gg
+P0_qq_qq

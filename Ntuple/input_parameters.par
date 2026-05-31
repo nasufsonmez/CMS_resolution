@@ -1,0 +1,12 @@
+$$$----- Minimal configuration file to run on data -----
+$$$----- Input file name
+
+InputFileName = "list_myfiles"
+
+$$$----- Number of Events to Process
+NEntries = -1
+
+$$$----- Output file name
+OutputFileName = "outPut_PU_0_1000-2500"
+
+

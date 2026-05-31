@@ -1,0 +1,690 @@
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c adumtmp.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv1998to2000.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2000to2002.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2000to2002lst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2000to2004.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2000to2004lst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2004to2006.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv2004to2006lst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c cnv98to00lst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c dpmhep.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c dpmtran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c dumphepeup.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c dumpheprup.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c gtran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hep2geant.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepchg.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepchg_2002.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepchg_2004.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepchg_old.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepcmp.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepcmp_2002.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepcmp_2004.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepcmp_old.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c heplst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepnam.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepnam_2002.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepnam_2004.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hepnam_old.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c heptree.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hptrlstdpm.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hptrlsth.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hptrlsti.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hptrlstj.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hptrlstq.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hwghep.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c hwtran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c isahep.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c istran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c lunhep.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c luntmp.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c lutran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c parsecsv.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c parsecsv_2004.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pdgprtb.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pdgrdcsvtb.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pdgrdtb.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pdgtonew.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pdgtran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c pythia2ev4.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c qqhep.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c qqtran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c readmadgraph.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c std3to4.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c std3to4lst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c std3to4prt.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c std3to4tran.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdchg.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdchgdsclst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdcomp.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdcquarks.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stddautr.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stddautrlst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stddecayqq.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stddscndlst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdexpname.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdfixmass.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdfixpart.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdflhwxsec.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdflisxsec.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdflpyxsec.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdlst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdmsjet.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdparent.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdparentlst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdprthd.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdqqadd.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdqqdcy.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdqquset.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdquarkcnt.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdquarklst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdquarks.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdrotboost.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdsort.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdspin.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdstdsclst.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdtcopy.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdversn.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdvtxmatch.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxend.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxrd.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxrdm.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxrinit.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxropen.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwcm1.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwevt.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwevtlh.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwevtup.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwinit.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwopen.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdxwrt.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdzero.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c stdzeroqq.F
+gfortran -I../../src/inc -I../../mcfio/src -I../../src/inc/isajet -I../../src/inc/pythia -I../../src/inc/herwig -I../../src/inc/qq -I../../src/inc/dpm  -fno-second-underscore  -fd-lines-as-code -c zerohepeup.F
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c mcf_StdHep_cxx.c
+mcf_StdHep_cxx.c: In function 'xdr_stdhep_cxx_':
+mcf_StdHep_cxx.c:96:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:99:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:102:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:105:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:108:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:111:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:114:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:117:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:120:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:123:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:126:44: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                            ^~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:129:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:132:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                               ^~~~~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:135:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw, NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                               ^~~~~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:138:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_StdHep_cxx.c:141:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_StdHep_cxx.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c mcf_Stdhep_xdr.c
+mcf_Stdhep_xdr.c: In function 'xdr_stdhep_':
+mcf_Stdhep_xdr.c:102:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:105:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:108:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:111:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:114:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw5, 5*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:117:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c: In function 'xdr_stdhep_multi_':
+mcf_Stdhep_xdr.c:172:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:175:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:178:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:181:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:184:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw5, 5*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:187:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:199:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:224:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:227:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_Stdhep_xdr.c:230:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_Stdhep_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c mcf_hepev4_xdr.c
+mcf_hepev4_xdr.c: In function 'xdr_stdhep_4_':
+mcf_hepev4_xdr.c:109:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:112:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:115:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:118:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:121:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw5, 5*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:124:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:131:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &n5, 10, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                          ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:134:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw3, 3*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:137:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c: In function 'xdr_stdhep_4_multi_':
+mcf_hepev4_xdr.c:201:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:204:40: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                        ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:207:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:210:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:213:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw5, 5*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:216:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw4, 4*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:223:37: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nnw, NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                     ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:229:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:232:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:235:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:242:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &n5, 10, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                          ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:245:50: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw3, 3*NMXHEP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                  ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:248:47: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnw2, 2*NMXHEP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                               ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:252:49: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnmlt, NMXMLT, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                 ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:255:49: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnmlt, NMXMLT, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                 ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:258:49: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnmlt, NMXMLT, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                 ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:261:53: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nnmlt5, 10*NMXMLT, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                                     ^~~~~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepev4_xdr.c:264:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nnmlt, NMXMLT, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                          ^~~~~~~
+In file included from mcf_hepev4_xdr.c:30:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c mcf_hepup_xdr.c
+mcf_hepup_xdr.c: In function 'xdr_hepeup_':
+mcf_hepup_xdr.c:102:36: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn, MAXNUP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                    ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:105:36: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn, MAXNUP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                    ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:106:11: warning: assignment to 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+      idat = hepeup_.mothup;
+           ^
+mcf_hepup_xdr.c:108:39: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn2, 2*MAXNUP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                       ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:109:11: warning: assignment to 'int *' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+      idat = hepeup_.icolup;
+           ^
+mcf_hepup_xdr.c:111:39: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn2, 2*MAXNUP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                       ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:114:42: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn5, 5*MAXNUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                          ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:117:39: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn, MAXNUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                       ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:120:39: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+          &nn, MAXNUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                       ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c: In function 'xdr_heprup_':
+mcf_hepup_xdr.c:170:34: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &n2, 2, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                  ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:173:41: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &n2, 2, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                         ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:176:34: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &n2, 2, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                  ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:179:34: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &n2, 2, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                  ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:182:46: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nn, MAXPUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                              ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:185:46: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nn, MAXPUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                              ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:188:46: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+                 &nn, MAXPUP, sizeof(double), xdr_double) == FALSE) return FALSE;
+                                              ^~~~~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, double *)' {aka 'int (*)(struct __rpc_xdr *, double *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+mcf_hepup_xdr.c:191:39: warning: passing argument 6 of 'xdr_array' from incompatible pointer type [-Wincompatible-pointer-types]
+             &nn, MAXPUP, sizeof(int), xdr_int) == FALSE) return FALSE;
+                                       ^~~~~~~
+In file included from mcf_hepup_xdr.c:29:
+/usr/include/rpc/xdr.h:389:85: note: expected 'xdrproc_t' {aka 'int (*)(struct __rpc_xdr *, void *, unsigned int)'} but argument is of type 'int (*)(XDR *, int *)' {aka 'int (*)(struct __rpc_xdr *, int *)'}
+ extern bool_t xdr_array(XDR *, char **, unsigned int *, unsigned int, unsigned int, xdrproc_t);
+                                                                                     ^~~~~~~~~
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c mcf_stdcm1_xdr.c
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c copy_stdevent.c
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c sum_4vec_d.c
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c sum_4vec_f.c
+ar -urs ../../lib/libstdhep.a adumtmp.o cnv1998to2000.o cnv2000to2002.o cnv2000to2002lst.o cnv2000to2004.o cnv2000to2004lst.o cnv2004to2006.o cnv2004to2006lst.o cnv98to00lst.o dpmhep.o dpmtran.o dumphepeup.o dumpheprup.o gtran.o hep2geant.o hepchg.o hepchg_2002.o hepchg_2004.o hepchg_old.o hepcmp.o hepcmp_2002.o hepcmp_2004.o hepcmp_old.o heplst.o hepnam.o hepnam_2002.o hepnam_2004.o hepnam_old.o heptree.o hptrlstdpm.o hptrlsth.o hptrlsti.o hptrlstj.o hptrlstq.o hwghep.o hwtran.o isahep.o istran.o lunhep.o luntmp.o lutran.o parsecsv.o parsecsv_2004.o pdgprtb.o pdgrdcsvtb.o pdgrdtb.o pdgtonew.o pdgtran.o pythia2ev4.o qqhep.o qqtran.o readmadgraph.o std3to4.o std3to4lst.o std3to4prt.o std3to4tran.o stdchg.o stdchgdsclst.o stdcomp.o stdcquarks.o stddautr.o stddautrlst.o stddecayqq.o stddscndlst.o stdexpname.o stdfixmass.o stdfixpart.o stdflhwxsec.o stdflisxsec.o stdflpyxsec.o stdlst.o stdmsjet.o stdparent.o stdparentlst.o stdprthd.o stdqqadd.o stdqqdcy.o stdqquset.o stdquarkcnt.o stdquarklst.o stdquarks.o stdrotboost.o stdsort.o stdspin.o stdstdsclst.o stdtcopy.o stdversn.o stdvtxmatch.o stdxend.o stdxrd.o stdxrdm.o stdxrinit.o stdxropen.o stdxwcm1.o stdxwevt.o stdxwevtlh.o stdxwevtup.o stdxwinit.o stdxwopen.o stdxwrt.o stdzero.o stdzeroqq.o zerohepeup.o \
+		mcf_StdHep_cxx.o mcf_Stdhep_xdr.o mcf_hepev4_xdr.o mcf_hepup_xdr.o mcf_stdcm1_xdr.o \
+                copy_stdevent.o sum_4vec_d.o sum_4vec_f.o
+ar: creating archive ../../lib/libstdhep.a
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c stdhep_internal_utils.c
+gcc   -I/sw/include -m64 -I../../src/inc -I../../mcfio/src -c stdhep_mcfio.c
+stdhep_mcfio.c: In function 'StdHepXdrReadInit':
+stdhep_mcfio.c:73:5: warning: implicit declaration of function 'mcfioC_Init' [-Wimplicit-function-declaration]
+     mcfioC_Init();
+     ^~~~~~~~~~~
+stdhep_mcfio.c: In function 'StdHepXdrReadOpen':
+stdhep_mcfio.c:82:16: warning: implicit declaration of function 'mcfioC_OpenReadDirect' [-Wimplicit-function-declaration]
+     istream =  mcfioC_OpenReadDirect(filename);
+                ^~~~~~~~~~~~~~~~~~~~~
+stdhep_mcfio.c:88:5: warning: implicit declaration of function 'mcfioC_InfoStreamChar' [-Wimplicit-function-declaration]
+     mcfioC_InfoStreamChar(istream, MCFIO_CREATIONDATE, stdhd1_.date, &stdhd2_.dlen);
+     ^~~~~~~~~~~~~~~~~~~~~
+stdhep_mcfio.c:91:5: warning: implicit declaration of function 'mcfioC_InfoStreamInt' [-Wimplicit-function-declaration]
+     mcfioC_InfoStreamInt(istream, MCFIO_NUMEVTS, &ntries);
+     ^~~~~~~~~~~~~~~~~~~~
+stdhep_mcfio.c: In function 'StdHepXdrRead':
+stdhep_mcfio.c:132:8: warning: implicit declaration of function 'mcfioC_NextEvent' [-Wimplicit-function-declaration]
+     if(mcfioC_NextEvent(istream) != MCFIO_RUNNING) {
+        ^~~~~~~~~~~~~~~~
+stdhep_mcfio.c:148:13: warning: implicit declaration of function 'StdHepZero'; did you mean 'StdHepXdrEnd'? [-Wimplicit-function-declaration]
+             StdHepZero();
+             ^~~~~~~~~~
+             StdHepXdrEnd
+stdhep_mcfio.c:149:17: warning: implicit declaration of function 'mcfioC_Block' [-Wimplicit-function-declaration]
+             if (mcfioC_Block(istream,MCFIO_STDHEP,xdr_stdhep_) != -1) {
+                 ^~~~~~~~~~~~
+stdhep_mcfio.c:151:21: warning: implicit declaration of function 'StdHepTempCopy' [-Wimplicit-function-declaration]
+                 if (StdHepTempCopy(2,istream) == 0)
+                     ^~~~~~~~~~~~~~
+stdhep_mcfio.c: In function 'StdHepXdrWriteOpen':
+stdhep_mcfio.c:319:16: warning: implicit declaration of function 'mcfioC_OpenWriteDirect' [-Wimplicit-function-declaration]
+     istream =  mcfioC_OpenWriteDirect(filename, title, comment,
+                ^~~~~~~~~~~~~~~~~~~~~~
+stdhep_mcfio.c: In function 'StdHepXdrWriteEvent':
+stdhep_mcfio.c:403:9: warning: implicit declaration of function 'mcfioC_SetEventInfo' [-Wimplicit-function-declaration]
+         mcfioC_SetEventInfo(istream, MCFIO_STORENUMBER, &hepevt_.nevhep);
+         ^~~~~~~~~~~~~~~~~~~
+stdhep_mcfio.c: In function 'StdHepXdrEnd':
+stdhep_mcfio.c:525:5: warning: implicit declaration of function 'mcfioC_Close' [-Wimplicit-function-declaration]
+     mcfioC_Close(istream);
+     ^~~~~~~~~~~~
+ar -urs ../../lib/libstdhepC.a copy_stdevent.o mcf_StdHep_cxx.o mcf_Stdhep_xdr.o mcf_hepev4_xdr.o mcf_hepup_xdr.o mcf_stdcm1_xdr.o stdhep_internal_utils.o stdhep_mcfio.o sum_4vec_d.o sum_4vec_f.o
+ar: creating archive ../../lib/libstdhepC.a

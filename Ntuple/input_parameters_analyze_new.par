@@ -1,0 +1,22 @@
+$$$----- Minimal configuration file to run on data -----
+$$$----- Input file name
+
+InputFileName = "/home/fozturk/Desktop/Analysis-master/ntuple_data/cut0/ntuple_signal_diphoton_cut0"
+
+$$$----- Number of Events to Process
+NEntries = -1
+
+$$$----- Output file name
+OutputFileName = "/home/fozturk/Desktop/Analysis-master/analyze_output_new_tfd/cut7/analyze_signal_diphoton_cut7"
+
+
+$$$----- Cut selection
+
+CUT1 = cut7
+CUT2 = cut7
+CUT3 = cut7
+CUT4 = cut7
+CUT5 = cut7
+CUT6 = cut7
+CUT7 = cut7
+$$$ ----- ######asdsad asdas

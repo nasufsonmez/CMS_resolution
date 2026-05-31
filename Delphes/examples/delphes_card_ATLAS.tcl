@@ -1,0 +1,1 @@
+../cards/delphes_card_ATLAS.tcl
